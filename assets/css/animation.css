@@ -1,0 +1,153 @@
+.anim-elements{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+.anim-elements .anim-element{
+  position: absolute;
+  font-size: 30px;
+}
+.anim-elements .anim-element:nth-child(1){
+  top: 12%;
+  left: 25%;
+  color: var(--primary-color);
+  animation: aniOne 13s infinite linear alternate;
+}
+@keyframes aniOne{
+  0% {transform: translate(0, 0) rotate(0);}
+  50% {transform: translate(141px,180px) rotate(75deg);}
+  80% {transform: translate(-40px,-72px) rotate(145deg);}
+  100% {transform: translate(40px, 80px) rotate(0);}
+}
+
+.anim-elements .anim-element:nth-child(2){
+  bottom: 6%;
+  left: 50%;
+  color: orange;
+  animation: aniTwo 13s infinite linear alternate;
+}
+@keyframes aniTwo{
+  0% {transform: translate(300px, 20px) rotate(0) scale(1);}
+  25% {transform: translate(73px, -80px) rotate(35deg) scale(0.9);}
+  65% {transform: translate(200px, 122px) rotate(108deg) scale(1.2);}
+  100% {transform: translate(500px,200px) rotate(0)scale(1);}
+}
+.anim-elements .anim-element:nth-child(3){
+  top: 40%;
+  left: 50%;
+  color:gold;
+  animation: aniThree 13s infinite linear alternate;
+}
+@keyframes aniThree{
+  0% {transform: translate(300px, 151px) rotate(0);}
+  25%{transform: translate(500px, 40px) rotate(60deg);}
+  75% {transform: translate(-82px, -22px) rotate(108deg) scale(1.2);}
+  100% {transform: translate(250px, 200px) rotate(18deg);}
+}
+.anim-elements .anim-element:nth-child(4){
+  bottom: 5%;
+  left: 25%;
+  color:aqua;
+  animation: aniFour 13s infinite linear alternate;
+}
+@keyframes aniFour{
+  0% {transform: translate(61px, 99px) rotate(360deg) ;}
+  30% {transform: translate(-70px, 190px) rotate(180deg) ;}
+  70% {transform: translate(-3px, 34px) rotate(360deg);}
+  100% {transform: translate(520px, 400px) rotate(180deg);}
+}
+.anim-elements .anim-element:nth-child(5){
+  top: 18%;
+  right: 25%;
+  bottom: 25%;
+  color: rgb(29, 140, 200);
+  animation: aniFive 13s infinite linear alternate;
+}
+@keyframes aniFive{
+  0% {transform: translate(61px, 99px) rotate(0) ;}
+  20% {transform: translate(-200px, 190px) rotate(3deg) ;}
+  55% {transform: translate(263px, -164px) rotate(108deg);}
+  100% {transform: translate(-1px, 100px) rotate(180deg);}
+}
+.anim-elements .anim-element:nth-child(6){
+  right: 10%;
+  bottom: 10%;
+  top: 100%;
+  color: #4c0bce;
+  animation: aniSix 13s infinite linear alternate;
+}
+@keyframes aniSix{
+  0% {transform: translate(61px, 99px) rotate(0) ;}
+  30% {transform: translate(-7px, 190px) rotate(30deg) ;}
+  60% {transform: translate(163px, 164px) rotate(18deg);}
+  100% {transform: translate(-1px, -100px) rotate(180deg);}
+}
+.anim-elements .anim-element:nth-child(7){
+  top: 12%;
+  left: 15%;
+  color: rgb(68, 113, 172);
+  animation: aniSeven 13s infinite linear alternate ;
+}
+@keyframes aniSeven{
+  0% {transform: translate(60px, 10px) rotate(0) ;}
+  20% {transform: translate(70px, 190px) rotate(130deg) ;}
+  50% {transform: translate(-263px, 140px) rotate(108deg);}
+  100% {transform: translate(100px, -300px) rotate(180deg);}
+}
+
+.anim-elements .anim-element:nth-child(8){
+ bottom: 10%;
+  right: 25%;
+  /* top: 50%; */
+  color: green;
+  animation: aniEight 13s infinite linear alternate ;
+}
+@keyframes aniEight{
+  0% {transform: translate(60px, 310px) rotate(180deg) ;}
+  50% {transform: translate(-16px, 90px) rotate(30deg) ;}
+  70% {transform: translate(100px, 104px) rotate(10deg);}
+  100% {transform: translate(100px, -50px) rotate(180deg);}
+}
+
+.anim-elements .anim-element:nth-child(9){
+  top: 52%;
+  left: 40%;
+  color:black;
+  animation: aniNine 13s infinite linear alternate ;
+}
+@keyframes aniNine{
+  0% {transform: translate(6px, 10px) rotate(0) ;}
+  30% {transform: translate(70px, 190px) rotate(3deg) ;}
+  60% {transform: translate(263px, 164px) rotate(108deg);}
+  100% {transform: translate(-100px, 500px) rotate(180deg);}
+}
+
+.anim-elements .anim-element:nth-child(10){
+  bottom: 12%;
+  left: 15%;
+  color: rgb(71, 152, 71);
+  animation: aniTen 13s infinite linear alternate ;
+}
+@keyframes aniTen{
+  0% {transform: translate(300px, 100px) rotate(0) ;}
+  20% {transform: translate(40px, 360px) rotate(3deg) ;}
+  70% {transform: translate(423px, 164px) rotate(18deg);}
+  100% {transform: translate(-1px, 100px) rotate(180deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
